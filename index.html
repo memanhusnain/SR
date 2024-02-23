@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SR Shine Home </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+<style>
+h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: orange;}
+</style>
+
+<body>
+<div class="w3-border-bottom w3-large">
+<img src="logo 2.png" class="w3-right" width="15%"> 
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="mens.html" class="w3-bar-item w3-button">Mens</a>
+  <a href="womens.html" class="w3-bar-item w3-button">Womens</a>
+  <a href="#" class="w3-bar-item w3-button">Kids</a>
+  <a href="#" class="w3-bar-item w3-button">Brands</a>
+  <a href="about us.html" class="w3-bar-item w3-button">About us</a>
+</div>
+
+<div class="w3-black w3-border-bottom">
+  <button class="w3-button w3-black w3-xlarge w3-left" onclick="w3_open()">☰</button>
+  <div class="w3-center">
+    <h1>SR Shine</h1>
+
+   
+  </div>
+</div>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</div>
+
+<div class="w3-bar w3-light-grey">
+<h2 class="w3-center">Welcome to SR Shine!</h2>
+<h2 class="w3-center"><i><u>"shine your style"</u></i></h2>
+</div>
+<div class="w3-content w3-display-container w3-hover-opacity ">
+  <img class="mySlides w3-hover-opacity" src="nike air force.webp" style="width:100%">
+  <a href="mens.html" class="w3-panel w3-small w3-button  w3-display-bottommiddle w3-black "><h1>Shop now!</h2></a>
+   <img class="mySlides" src="new arrival.jpg" style="width:100%">
+  <img class="mySlides" src="jordon logo.png" style="width:100%">
+  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</div>
+<div class="w3-panel w3-black">
+  <h3>Brands that we sell</h3>
+
+  <style>
+    .image-container {
+      display: flex; /* Use flexbox layout */
+    }
+    .image-container img {
+      margin-right: 10px; /* Adjust as needed to create space between images */
+    }
+    .image-container{ 
+      margin-bottom: 10px;
+    }
+  
+  </style>
+
+  <body>
+  
+  <div class="image-container">
+    <img src="nike.png" alt="Image 1" width="50%">
+    <img src="TNF.png" alt="Image 2" width="50%"> 
+  </div>
+  <div class="image-container">
+    <img src="jordon logo.png" alt="Image 1" width="50%">
+    <img src="adidas logo.png" alt="Image 2" width="50%"> 
+  </div>
+  
+  <style>
+    .image-container {
+      display: flex; /* Use flexbox layout */
+    }
+    .image-container img {
+      margin-right: 10px; /* Adjust as needed to create space between images */
+    }
+    .image-container{ 
+      margin-bottom: 10px;
+    }
+  </style>
+  <div class="image-container ">
+    <img src="gucci logo.png" alt="Image 1" width="50%">
+    <img src="balenciaga logo.jpg" alt="Image 2" width="50%"> 
+  </div>
+  
+
+</body>
+</html>
+
+
+
+
+

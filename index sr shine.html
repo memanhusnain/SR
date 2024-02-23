@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SR Shine Home </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+<style>
+h1{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: orange;}
+h2{font-family:cursive;
+font-size: 165%;
+color: black;}
+h3{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 155%;
+color:white;}
+</style>
+
+<body>
+<div class="w3-border-bottom w3-large">
+<img src="logo 2.png" class="w3-right" width="15%"> 
+<!-- Sidebar -->
+<div class="w3-sidebar w3-bar-block w3-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item w3-large">Close &times;</button>
+  <a href="mens.html" class="w3-bar-item w3-button"><h10>Mens</h10></a>
+  <a href="womens.html" class="w3-bar-item w3-button">Womens</a>
+  <a href="#" class="w3-bar-item w3-button">Kids</a>
+  <a href="#" class="w3-bar-item w3-button">Brands</a>
+  <a href="about us.html" class="w3-bar-item w3-button">About us</a>
+</div>
+
+<div class="w3-black w3-border-bottom">
+  <button class="w3-button w3-black w3-xlarge w3-left" onclick="w3_open()">☰</button>
+  <div class="w3-center">
+    <h1>SR Shine</h1>   
+  </div>
+</div>
+</div>
+<div class="w3-bar w3-light-grey w3-container" >
+  <h2 class="w3-center"><i><u>"shine your style"</u></i></h2></div>
+  <div class="w3-bar w3-white">
+<a href="https://www.instagram.com/sr_shine_shopping/" class="w3-button w3-padding w3-right w3-xlarge "><i class="fa-brands fa-instagram"></i></a>
+  <a href="#" class="w3-button w3-padding w3-left w3-xlarge"><i class="fa-solid fa-magnifying-glass"></i></a>
+</div>
+
+<script>
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   </head>
+<div class="w3-panel w3-red">
+<p>Unfortunately! We don't seel our products through website. To place an order kindly call/text on our Number given below.</p>
+<p> India:- +99 </p>
+  <p>UK :- +44 7778462327 </p>
+</div>
+
+
+
+<div class="w3-display-container ">
+  <img class="mySlides" src="nike air force.webp" style="width:100%">
+  <a href="mens.html" class="w3-button w3-display-bottommiddle w3-black w3-display-hover w3-small "><h3>Shop now!</h2></a>
+   <img class="mySlides" src="new arrival.jpg" style="width:100%">
+  <img class="mySlides" src="jordon logo.png" style="width:100%">
+  <img class="mySlides" src="img_forest.jpg" style="width:100%">
+</div>
+
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+</div>
+<div class=" w3-container w3-panel w3-black">
+  <h3 class="w3-center">Brands that we sell</h3>
+</div>
+     <style>
+   .container {
+    width: 100%;
+    padding: 10px;
+    
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+   }
+    
+   .box{
+    width: 100%;
+    margin: 0px 10px;
+    box-shadow: 0, 0, 20px 2px rgba(0, 0, 0, -1);
+   
+transition: 0.6s;  }
+
+   .box:hover{
+    transform: scale(1.3);
+    z-index: 2;
+   }
+  </style>
+  </head>
+  <body>
+  
+  <div class="container">
+    <div class="box w3-padding"> <img src="nike.png" width="140%">  </div>
+    <div class="box w3-padding"><img src="jordon logo.png" width="140%"> </div> 
+    <div class="box w3-padding"> <img src="adidas logo.png"  width="140%"> </div> 
+  </div>
+
+  <style>
+    .container {
+     width: 100%;
+     padding: 10px;
+     
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+     
+    .box{
+     width: 100%;
+     margin: 0px 10px;
+     box-shadow: 0, 0, 20px 2px rgba(0, 0, 0, -1);
+    
+ transition: 0.6s;  }
+ 
+    .box:hover{
+     transform: scale(1.3);
+     z-index: 2;
+    }
+   </style>
+   </head>
+   <body>
+   
+   <div class="container">
+     <div class="box w3-padding"> <img src="TNF.png" width="130%">  </div>
+     <div class="box w3-padding"><img src="new balance.jpg" width="130%"> </div> 
+     <div class="box w3-padding"> <img src="EA7 armani.jpg"  width="120%"> </div> 
+   </div>
+ 
+   <style>
+    .container {
+     width: 100%;
+     padding: 10px;
+     
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+     
+    .box{
+     width: 100%;
+     margin: 0px 10px;
+     box-shadow: 0, 0, 20px 2px rgba(0, 0, 0, -1);
+    
+ transition: 0.6s;  }
+ O
+    .box:hover{
+     transform: scale(1.3);
+     z-index: 2;
+    }
+   </style>
+   </head>
+   <body>
+   
+   <div class="container">
+     <div class="box w3-padding"> <img src="dior.jpg" width="130%">  </div>
+     <div class="box w3-padding"><img src="balenciaga logo.jpg" width="140%"> </div> 
+     <div class="box w3-padding"> <img src="D & G logo.jpg"  width="130%"> </div> 
+   </div>
+ 
+   <style>
+    .container {
+     width: 100%;
+     padding: 10px;
+     
+     display:flex;
+     flex-direction: row;
+     justify-content: center;
+    }
+     
+    .box{
+     width: 100%;
+     margin: 0px 10px;
+     box-shadow: 0, 0, 20px 2px rgba(0, 0, 0, -1);
+    
+ transition: 0.6s;  }
+ O
+    .box:hover{
+     transform: scale(1.3);
+     z-index: 2;
+    }
+   </style>
+   </head>
+   <body>
+   
+   <div class="container">
+     <div class="box w3-padding"> <img src="rolex.jpg" width="115%">  </div>
+     <div class="box w3-padding"><img src="prada.jpg" width="140%"> </div> 
+     <div class="box w3-padding"> <img src="hublot.jpg"  width="127%"> </div> 
+   </div>
+ 
+   
+   
+<h4>Explore Our Products!</h4>
+<div class="w3-display-container w3-center">
+  <img class="mySlides " src="puffer poster.png"  style="width:62.50%">
+  <a href="mens.html" class="w3-button w3-display-middle w3-black w3-display-hover w3-small "><h3>Get it now!</h2></a>
+</div>
+
+
+</body>
+
+</html>
+
+
+
+
+
